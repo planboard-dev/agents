@@ -1,0 +1,12 @@
+{
+  "name": "planboard",
+  "description": "Run a Planboard design interview and keep a planning root, local, on premises or hosted, through the planboard MCP tools or the CLI.",
+  "author": {
+    "name": "Planboard",
+    "email": "support@planboard.dev",
+    "url": "https://planboard.dev"
+  },
+  "homepage": "https://planboard.dev",
+  "repository": "https://github.com/planboard-dev/agents",
+  "license": "Apache-2.0"
+}

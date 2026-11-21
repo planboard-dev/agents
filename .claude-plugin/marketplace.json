@@ -1,0 +1,18 @@
+{
+  "name": "planboard",
+  "owner": {
+    "name": "Planboard",
+    "email": "support@planboard.dev",
+    "url": "https://planboard.dev"
+  },
+  "metadata": {
+    "description": "Claude Code skills for Planboard: design interviews and planning roots, local, on premises or hosted"
+  },
+  "plugins": [
+    {
+      "name": "planboard",
+      "source": "./plugins/planboard",
+      "description": "Run a Planboard design interview and keep a planning root, local, on premises or hosted, through the planboard MCP tools or the CLI."
+    }
+  ]
+}
