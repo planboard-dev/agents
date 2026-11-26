@@ -1,11 +1,11 @@
 ---
 name: research
 description: >
-  Fetch a paper, talk or article into a Planboard root's research library as Research/<slug>/: the
+  Fetch a paper, talk or article into a Planboard root's research library as Research/SLUG/: the
   content converted to markdown in source.md, what the conversion started from in raw/, and a
   meta.yaml with where it came from, tags reused from the library, and a summary. Each kind of
   source has a handler of its own; arxiv is the first. Ingesting the same source again updates the
-  entry in place. Invoke it explicitly, by typing /planboard:research <url> or by naming the skill.
+  entry in place. Invoke it explicitly, by typing /planboard:research URL or by naming the skill.
   It does not start on its own when a link comes up in conversation.
 argument-hint: <url or path>
 ---
