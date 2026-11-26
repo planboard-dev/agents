@@ -1,8 +1,9 @@
 ---
 name: planboard
 description: >
-  Run a Planboard design interview and maintain a Planboard planning tree: project.md,
-  interview.md, items/<slug>.md and plans/. Covers the interview that creates a project and the
+  Run a Planboard idea discussion or design interview and maintain a Planboard planning tree:
+  project.md, discussion.md, interview.md, items/<slug>.md and plans/. Covers the idea discussion
+  of a topic with nothing decided, the interview that creates a project or a program, and the
   lifecycle rules that follow it, such as marking an item active, recording the outcome when it
   lands, retiring it with a reason, and updating the sequence after an insert. Also covers running
   the sequence: a worktree for the run, a build agent and a review agent per item, and a commit
