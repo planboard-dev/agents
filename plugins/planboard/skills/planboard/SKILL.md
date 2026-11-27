@@ -23,8 +23,9 @@ Look for `mcp__planboard__whoami` among the loaded and deferred tools, and load 
 
 With it, call `whoami` and check its Level. This skill needs planboard API level 2. Below that, say
 the server's binary needs upgrading and stop. If the call fails, stop and say so, and do not use the
-CLI, since that could write to a local root. State `whoami`'s root and mode to the user. Then use
-the `guide` tool.
+CLI, since that could write to a local root. State `whoami`'s mode and Caller to the user, and its
+root when the mode is `local`, but not the Store, Level, Release or Uploads rows. Then use the
+`guide` tool.
 
 Without it, run `claude mcp get planboard`:
 
